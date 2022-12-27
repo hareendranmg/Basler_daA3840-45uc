@@ -64,10 +64,10 @@ try:
         cam.Open()
         cam.Width=2448
         cam.Height=2048
-        cam.ExposureTime.SetValue(500)
+        cam.ExposureTime.SetValue(20000)
         # Print the model name of the camera.
         print("Using device ", cam.GetDeviceInfo().GetModelName())
-        #print("Exposure time ", cam.ExposureTime.GetValue())
+        # print("Exposure time ", cam.ExposureTime.GetValue())
 
 
     # Starts grabbing for all cameras starting with index 0. The grabbing
